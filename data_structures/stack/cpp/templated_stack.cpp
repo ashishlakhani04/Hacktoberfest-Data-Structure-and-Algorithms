@@ -21,7 +21,7 @@ int main(void) {
 
 	while ( !s.empty() )
 	{
-		std::cout << s.top() << std::endl;
+		std::cout << s.top() << std::endl; // Prints 9 8 7 6 5 4 3 2 1 0
 		s.pop();
 	}
 
